@@ -1,0 +1,202 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#background {
+    background-color: rgba(168, 7, 7, 0.727);
+}
+
+
+/* Navbar Start */
+#back {
+    background-color: royalblue;
+}
+
+#navbutt:hover {
+    background-color: white;
+}
+
+#item1 {
+    color: black;
+}
+
+#item1:hover {
+    color: white;
+}
+
+#item2 {
+    padding-right: 320px;
+    color: black;
+}
+
+#item2:hover {
+    color: white;
+}
+
+#item3 {
+    color: black;
+}
+
+#item3:hover {
+    background-color: black;
+    color: white;
+}
+
+#ic {
+    padding-left: 10px;
+    color: black;
+}
+
+#ic:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Navbar End */
+
+
+/* Home Page Css Start */
+/* Backgroun Start */
+#firstimg {
+    background-image: url(../Image/Background/background.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+}
+
+#secondimg {
+    background-image: url(../Image/Background/background2.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+}
+
+#thirdimg {
+    background-image: url(../Image/Background/background3.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+}
+
+#fourthimg {
+    background-image: url(../Image/Background/background4.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+}
+
+/* Backgroun End */
+
+
+/* Mini Gallary Start */
+#mg {
+    text-decoration: underline;
+}
+
+#bsb {
+    text-decoration: underline;
+}
+
+#bss {
+    text-decoration: underline;
+}
+
+/* Mini Gallary Start */
+
+
+/* Owl Carousel Start */
+#owlback {
+    background-color: red;
+    padding-top: 20px;
+}
+
+.owl-carousel {
+    margin-top: 20px;
+}
+
+/* Owl Carousel End */
+
+
+/* Category Wise Start */
+#category {
+    background-color: black;
+    margin-top: 20px;
+    height: 90vh;
+}
+
+#men {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #706f6f58;
+    color: #000000;
+    margin-top: -32rem;
+    margin-left: 15rem;
+    border: 3px solid rgba(23, 22, 22, 0.947);
+    font-weight: 400;
+}
+
+#men:hover {
+    background-color: #000000b5;
+    color: white;
+}
+
+#women {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #706f6f58;
+    color: #000000;
+    margin-top: -32rem;
+    margin-left: 13rem;
+    border: 3px solid rgba(23, 22, 22, 0.947);
+    font-weight: 400;
+
+}
+
+#women:hover {
+    background-color: #000000b5;
+    color: white;
+}
+
+#img1 {
+    margin-top: 50px;
+}
+
+#img2 {
+    margin-top: 50px;
+}
+
+/* Category Wise End */
+
+/* Home Page Css End */
+
+
+/* ContectUs Page Css Start */
+#msg {
+    display: none;
+}
+
+/* ContectUs Page Css End */
+
+
+/* Shoes Css Start */
+#cad1 {
+    border: 2px solid black;
+}
+
+#des1 {
+    text-decoration: underline;
+}
+
+#ama {
+    border: 2px solid;
+    border-radius: 100%;
+}
+
+/* Shoes Css End */

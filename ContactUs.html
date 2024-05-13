@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ContactUs</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--Navbar Start-->
+    <div id="back">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div>
+                    <a href="index.html" id="logo"><img src="Image/logo.gif" height="150" width="250" alt=""></a>
+                </div>
+                <button class="navbar-toggler" id="navbutt" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mynav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link" id="item1">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="item1" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" id="item3" href="Men'sProduct.html">Mens Shoes</a></li>
+                                <li><a class="dropdown-item" id="item3" href="Women'sProduct.html">Women's Shoes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="Gallary.html" class="nav-link" id="item1">Gallary</a></li>
+                        <li class="nav-item"><a href="AboutUs.html" class="nav-link" id="item1">AboutUs</a></li>
+                        <li class="nav-item"><a href="ContactUs.html" class="nav-link" id="item2">ContactUs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Navbar End-->
+
+    <!-- Form & Map Start -->
+    <div class="container">
+        <div class="center">
+            <section id="msg">
+                <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+                    <strong>Successfuly</strong>Your Request Sent
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </section>
+            <input type="text" onkeyup="nameevent()" placeholder="Name" class="form-control mt-3" id="uname">
+            <span id="errorname" class="text-danger"></span>
+            <input type="text" onkeyup="emailevent()" placeholder="Email" class="form-control mt-3" id="uemail">
+            <span id="erroremail" class="text-danger"></span>
+            <input type="text" onkeyup="subjectevent()" placeholder="Subject" class="form-control mt-3" id="usubject">
+            <span id="errorsubject" class="text-danger"></span>
+            <textarea id="umessage" onkeyup="messageevent()" class="form-control mt-3" placeholder="Message"
+                rows="6"></textarea>
+            <span id="errormessage" class="text-danger"></span>
+            <br>
+            <button onclick="formvalidate()" class="btn btn-dark mt-3 mb-3">Submit</button>
+        </div>
+    </div>
+    <!-- Form & Map End -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
